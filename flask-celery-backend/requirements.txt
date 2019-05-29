@@ -1,0 +1,13 @@
+celery
+Flask
+redis
+Flask-SocketIO
+Flask-SQLalchemy
+Flask-Caching
+Flask-Marshmallow
+Flask-Restplus
+Flask-Migrate
+pymysql
+requests
+Connexion
+marshmallow-sqlalchemy
