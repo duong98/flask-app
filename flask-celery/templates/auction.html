@@ -1,0 +1,182 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>FUNBID Auction - Auctions</title>
+  {% include '_head_includes.html' %}
+  <script type="text/javascript" src="/js/auction.js"></script>
+</head>
+
+<body class="hideall">
+{% include '_header.html' %}
+<!-- start container -->
+<div id="container">
+	<!-- start breadcrumb -->
+	<div class="breadcrumb">
+		<!-- start box -->
+		<div class="box"> <span>You are here:</span>
+			<ul>
+				<li><a href="/">Home</a></li>
+				<li><a href="category-page.html">Category</a></li>
+				<li><a href="/item/1">Product 1</a></li>
+			</ul>
+		</div>
+		<!-- end box -->
+		<div class="clear"></div>
+	</div>
+	<!-- end breadcrumb -->
+	<!-- start box -->
+	<div class="box">
+		<!-- start leftcol -->
+		<div id="leftcol">
+			<!-- start deatilbox -->
+			<div class="detail-block">
+				<h1 id="auction-name">Miku the waifu </h1>
+				<!-- left -->
+				<div class="detail-left">
+					<div id="auction-image" class="imgb"><img src="/images/miku.png" alt="product-image" width="292" height="242" /></div>
+				</div>
+				<!-- left -->
+				<!-- right -->
+				<div class="detail-right">
+					<div id="auction-detail">
+						<div class="price"><span>Current Price:</span><span class="right red">P2.48</span></div>
+						<div class="winner"><span>Current Winner:</span><span class="right red">darinh</span></div>
+						<div class="bid-history">
+							<ul>
+								<li class="username">josh</li>
+								<li class="bid-time">14:39:58</li>
+								<li class="bid">P2.47</li>
+								<li class="clear"></li>
+								<li class="username">chris</li>
+								<li class="bid-time">14:39:51</li>
+								<li class="bid">P2.46</li>
+								<li class="clear"></li>
+								<li class="username">phil</li>
+								<li class="bid-time">14:39:47</li>
+								<li class="bid">P2.45</li>
+								<li class="clear"></li>
+								<li class="username">darin</li>
+								<li class="bid-time">14:39:42</li>
+								<li class="bid">P2.44</li>
+								<li class="clear"></li>
+								<li class="username">josh</li>
+								<li class="bid-time">14:39:38</li>
+								<li class="bid">P2.43</li>
+								<li class="clear"></li>
+								<li class="username">chris</li>
+								<li class="bid-time">14:39:31</li>
+								<li class="bid">P2.42</li>
+								<li class="clear"></li>
+								<li class="username">phil</li>
+								<li class="bid-time">14:39:26</li>
+								<li class="bid">P2.41</li>
+								<li class="clear"></li>
+								<li class="username">darin</li>
+								<li class="bid-time">14:39:22</li>
+								<li class="bid">P2.40</li>
+								<li class="clear"></li>
+								<li class="username">josh</li>
+								<li class="bid-time">14:39:15</li>
+								<li class="bid">P2.39</li>
+								<li class="clear"></li>
+							</ul>
+						</div>
+						<div class="time-left red">0:09</div>
+
+						<!-- quatcol -->
+						<div id="controls">
+							<div id="bid"><a href="javascript:void(0);" class="button-default cart"><span class="hover">BID NOW</span><span>BID NOW</span></a></div>
+							<div id="create-autobidder" class="autobidder-controls">
+								<input id="autobidder-new-bids" type="text" class="input"/>
+								<div id="start-autobidder"><a href="javascript:void(0);" class="button-default cart"><span class="hover">START AUTOBIDDER</span><span>START AUTOBIDDER</span></a></div>
+								<div class="description">Assign a number of bids to an auto-bidder to bid for you just before the auction ends.</div>
+							</div>
+							<div id="cancel-autobidder" class="autobidder-controls">
+								<input id="autobidder-bids" type="text" readonly="true" class="input"/>
+								<div id="stop-autobidder"><a href="javascript:void(0);" class="button-default cart"><span class="hover">STOP AUTOBIDDER</span><span>STOP AUTOBIDDER</span></a></div>
+								<div class="description">If you stop this auto-bidder, all remaining bids will be credited to your account.</div>
+							</div>
+						</div>
+					</div> <!-- Auction Detail -->
+					<!-- quatcol -->
+				</div>
+				<!-- right -->
+				<div class="clear"></div>
+			</div>
+			<!-- end deatilbox -->
+			<!-- start more info -->
+			<div class="more-info">
+				<!-- start tabs -->
+				<div id="tabs">
+					<div class="info-content">
+						<h2><strong>Description</strong></h2>
+						<div id="description">
+							<p>a miku figure</p>
+						</div>
+					</div>
+				</div>
+				<!-- end tabs -->
+			</div>
+			<!-- end more info -->
+		</div>
+		<!-- end leftcol -->
+		<!-- start rightcol -->
+		<div id="rightcol">
+			<!-- banner -->
+			<ul id="auctions">
+				<li id="auction1">
+					<div class="top-block">
+						<div class="product-name"><a title="MacBook Pro" href="http://www.apple.com/macbook-pro/">MacBook Pro</a></div>
+						<div class="thumbnail-zoom-small">
+							<a class="fadeable" href="/auction/339">
+								<img alt="MacBook Pro" src="http://i.imgur.com/CUUWF.jpg">
+							</a>
+						</div>
+						<div class="winner"><a href="#">No Bidders</a></div>
+						<div class="price red">P 0.00</div>
+						<div class="time-left">00:00:00</div>
+					</div>
+					<div class="bid"><a href="javascript:void(0);" class="button-default cart"><span class="hover">BID NOW</span><span>BID NOW</span></a></div>
+				</li>
+				<li id="auction2">
+					<div class="top-block">
+						<div class="product-name"><a title="MacBook Pro" href="http://www.apple.com/macbook-pro/">MacBook Pro</a></div>
+						<div class="thumbnail-zoom-small">
+							<a class="fadeable" href="/auction/339">
+								<img alt="MacBook Pro" src="http://i.imgur.com/CUUWF.jpg">
+							</a>
+						</div>
+						<div class="winner"><a href="#">No Bidders</a></div>
+						<div class="price red">P 0.00</div>
+						<div class="time-left">00:00:00</div>
+					</div>
+					<div class="bid"><a href="javascript:void(0);" class="button-default cart"><span class="hover">BID NOW</span><span>BID NOW</span></a></div>
+				</li>
+				<li id="auction3">
+					<div class="top-block">
+						<div class="product-name"><a title="MacBook Pro" href="http://www.apple.com/macbook-pro/">MacBook Pro</a></div>
+						<div class="thumbnail-zoom-small">
+							<a class="fadeable" href="/auction/339">
+								<img alt="MacBook Pro" src="http://i.imgur.com/CUUWF.jpg">
+							</a>
+						</div>
+						<div class="winner"><a href="#">No Bidders</a></div>
+						<div class="price red">P 0.00</div>
+						<div class="time-left">00:00:00</div>
+					</div>
+					<div class="bid"><a href="javascript:void(0);" class="button-default cart"><span class="hover">BID NOW</span><span>BID NOW</span></a></div>
+				</li>
+			</ul>
+			<!-- banner -->
+		</div>
+		<!-- end rightcol -->
+		<div class="clear"></div>
+	</div>
+	<!-- end box -->
+</div>
+<!-- end container -->
+{% include '_footer.html' %}
+
+</body>
+</html>

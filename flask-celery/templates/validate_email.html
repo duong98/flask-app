@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>FUNBID Auction - Validate Email</title>
+	<link href="css/jquery-ui-1.8.23.custom.css" rel="stylesheet" type="text/css" />
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
+	<!--[if IE]>
+	<link href="css/ie.css" rel="stylesheet" type="text/css" />
+	<![endif]-->
+	<!--[if IE 8]>
+	<link href="css/ie8.css" rel="stylesheet" type="text/css" />
+	<![endif]-->
+	<script type="text/javascript" src="/js/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="/js/jquery-ui-1.8.23.custom.min.js"></script>
+	<script type="text/javascript" src="/js/cufon/cufon-yui.js"></script>
+	<script type="text/javascript" src="/js/cufon/open-sans-latin.js"></script>
+	<script type="text/javascript" src="/js/common.js"></script>
+	<script type="text/javascript" src="/js/core.js"></script>
+	<script type="text/javascript" src="/js/validate-email.js"></script>
+</head>
+
+<body class="hideall">
+{% include '_messageDialog.html' %}
+{% include '_topbar.html' %}
+<!-- start header -->
+<div id="header">
+	<div class="box"> 
+		{% include '_logo.html' %}
+		{% include '_menubar.html' %}
+	</div>
+</div>
+<!-- end header --> 
+<!-- start container -->
+<div id="container"> 
+	<!-- start breadcrumb -->
+	<div class="breadcrumb"> 
+		<!-- start box -->
+		<div class="box"> <span>You are here:</span>
+			<ul>
+				<li><a href="/">Home</a></li>
+				<li><a href="/validate_email">Validate Email</a></li>
+			</ul>
+		</div>
+		<!-- end box -->
+		<div class="clear"></div>
+	</div>
+	<!-- end breadcrumb --> 
+	<!-- start box -->
+	<div class="box"> 
+		<!-- start leftcol -->
+		<div id="leftcol" class="medium"> 
+			
+			<!-- block -->
+			<div id="validate-email" class="contact">
+				<div id="please-wait"><h1 class="red">Please wait...</h1></div>
+				<div id="validation-error"><h1 class='red'>Validation Error</h1><br/><br/><h2>&nbsp;</h2></div>
+				<div id="validation-success" class='contact'><h1 class='red'>Email Verified!</h1><br/><br/><h2>Your account has been validated.</h1></div></div>
+			</div>
+			<!-- end accordinpanel -->
+			<div class="clear"></div>
+		</div>
+		<!-- end leftcol --> 
+		<!-- start rightcol -->
+		<div id="rightcol"> 
+			<!-- start subnav -->
+			<div class="subnav rightcol-block">
+				<h4 class="red">Account</h4>
+				<ul class="sf-menu sf-vertical">
+					<li><a class="subnav-link" href="register-page.html" title=""><strong>Login / Register</strong></a></li>
+					<li><a class="subnav-link" href="register-page.html" title=""><strong>Forgotten Password</strong></a></li>
+					<li><a class="subnav-link" href="account-page.html" title=""><strong>My Account</strong></a></li>
+					<li><a class="subnav-link" href="wishlist-page.html" title=""><strong>Wish List</strong></a></li>
+					<li><a class="subnav-link" href="account-page.html" title=""><strong>Order History</strong></a></li>
+					<li><a class="subnav-link" href="account-page.html" title=""><strong>Downloads</strong></a></li>
+					<li><a class="subnav-link" href="account-page.html" title=""><strong>Returns</strong></a></li>
+					<li><a class="subnav-link" href="account-page.html" title=""><strong>Transactions</strong></a></li>
+					<li><a class="subnav-link" href="account-page.html" title=""><strong>Newsletter</strong></a></li>
+				</ul>
+			</div>
+			<!-- end subnav --> 
+		</div>
+		<!-- end rightcol -->
+		<div class="clear"></div>
+	</div>
+	<!-- end box --> 
+</div>
+<!-- end container --> 
+{% include '_footer.html' %}
+
+</body>
+</html>
